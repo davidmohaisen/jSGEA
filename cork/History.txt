@@ -1,0 +1,3 @@
+v 1.0 2009/12/21: initial release
+v 1.1 2010/10/18: bugfix in one-vs-rest pruning step in gspan.cpp (index error)
+v 1.2 2010/11/09: added restrictions on input format

@@ -1,0 +1,20 @@
+Cork/bin/gSpanCORK64bit -f CORK -l ./GraphsAsInput/cork.lab -m 25 -w 1 -n 5 < ./GraphsAsInput/cork.input > GraphsAsOutput/cork.output 
+
+
+Cork/gSpanCORK64bit -f FCORK -l ./input/cork.lab -m 5 -w 2 -n 5 < ./input/cork.input > output/cork.output 
+
+
+Gafgyt 139
+Mirai 181
+Tsunami 38
+
+python -m gspan_mining -s 5 -l 5 -u 20 -w True ../GraphsAsInput/gSpan_iso.input > ../GraphsAsOutput/gSpan_iso.output
+
+
+python -m gspan_mining -s 10 -l 5 -u 20 -w True ../GraphsAsInput/gSpan_iso_Gafgyt.input > ../GraphsAsOutput/gSpan_iso_Gafgyt_1.output
+
+
+
+python -m gspan_mining -s 2 -l 5 -u 20 -w True ../GraphsAsInput/gSpan_iso_Tsunami.input > ../GraphsAsOutput/gSpan_iso_Tsunami_4.output
+
+python -m gspan_mining -s 1 -l 5 -u 20 ../GraphsAsInput/sample.input > ../GraphsAsOutput/sample.output
